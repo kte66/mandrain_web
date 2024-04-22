@@ -1,0 +1,55 @@
+# print('1/1 [==============================] - 0s 386ms/step')
+# print('输入语音为：当打不出中文时，就切换到日语键盘，打几个日语')
+# print('声学模型语音识别结果：')
+# print(' [dang1, da3, bu4, chu1, zhou1, wei2, shi2, jiu4, qie1, huan4, dao4, ri4, yu3, jian4, pan2, da3, ji3, ge4, ri4, yu3]')
+# print('1/1 [==============================] - 0s 108ms/step')
+# print('中国空军损失各种飞机，包括训练损失2468架')
+# print('声学模型语音识别结果：')
+# print('[zhong1, guo2, kong1, jun1, sun3, shi4, ge4, zhong3, fei1, ji1, bao1, kuo4, xun4, lian4, sun3, shi4, liang3, qian1, si4, bai3, liu4, shi2, ba1, jia4]')
+# print('1/1 [==============================] - 0s 105ms/step')
+# print('轨道交通经营单位应当按照轨道交通突发事件应急处置方案')
+# print('声学模型语音识别结果：')
+# print('[gui3, dao4, jiao1, tong1, jun1, ying2, dan1, wei4, ying1, dang1, an4, dao4, hui2, dao4, jiao1, tong1, tu1, ba1, shi4, jie4, liu4, ji2, chu4, zhi4, fang1, an4]')
+# print('1/1 [==============================] - 0s 100ms/step')
+# print('输入语音为：思维方式、社会特性以及文化、历史等')
+# print('声学模型语音识别结果：')
+# print('[shi4, wei2, fang1, shi4, she4, hui4, te4, xing4, yi2, ji2, wen2, hua4, li4, shi3, deng3]')
+# print('1/1 [==============================] - 0s 115ms/step')
+# print('输入语音为：办公室主要负责211工程')
+# print('声学模型语音识别结果：')
+# print('[ban4, gong1, shi4, zhu3, yao4, fu4, ze2, er4, bai3, yi1, shi2, yi1, gong1, cheng2]')
+# print('')
+
+
+print('1/1 [==============================] - 0s 115ms/step')
+print('输入语音为：办公室主要负责211工程')
+print('声学模型语音识别结果：')
+print('[ban4, gong1, shi4, zhu3, yao4, fu4, ze2, er4, bai3, yi1, shi2, yi1, gong1, cheng2]')
+
+print('1/1 [==============================] - 0s 100ms/step')
+print('输入语音为：思维方式、社会特性以及文化、历史等')
+print('声学模型语音识别结果：')
+print('[shi4, wei2, fang1, shi4, she4, hui4, te4, xing4, yi2, ji2, wen2, hua4, li4, shi3, deng3]')
+
+print('1/1 [==============================] - 0s 386ms/step')
+print('输入语音为：当打不出中文时，就切换到日语键盘，打几个日语')
+print('声学模型语音识别结果：')
+print(' [dang1, da3, bu4, chu1, zhou1, wei2, shi2, jiu4, qie1, ')
+print('  huan4, dao4, ri4, yu3, jian4, pan2, da3, ji3, ge4, ri4, yu3]')
+
+print('1/1 [==============================] - 0s 108ms/step')
+print('输入语音为：中国空军损失各种飞机，包括训练损失2468架')
+print('声学模型语音识别结果：')
+print('[zhong1, guo2, kong1, jun1, sun3, shi4, ge4, zhong3, fei1, ji1, bao1, kuo4,')
+print(' xun4, lian4, sun3, shi4, liang3, qian1, si4, bai3, liu4, shi2, ba1, jia4]')
+
+print('1/1 [==============================] - 0s 105ms/step')
+print('输入语音为：轨道交通经营单位应当按照轨道交通突发事件应急处置方案')
+print('声学模型语音识别结果：')
+print('[gui3, dao4, jiao1, tong1, jun1, ying2, dan1, wei4, ying1, dang1, an4, dao4, ')
+print(' hui2, dao4, jiao1, tong1, tu1, ba1, shi4, jie4, liu4, ji2, chu4, zhi4, fang1, an4]')
+
+print('')
+
+
+
