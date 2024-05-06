@@ -26,13 +26,13 @@ def score_voice(wav_file_name, std_res):
     ms = ModelSpeech(sm251bn, feat, max_label_length=64)
     ms.load_model('./mandrain_web/mandrain_model/save_models/' + sm251bn.get_model_name() + '.model.h5')
     reco_res = ms.recognize_speech_from_file(wav_file_name)
-    print('输入语音为：当打不出中文时，就切换到日语键盘，打几个日语')
+    # print('输入语音为：当打不出中文时，就切换到日语键盘，打几个日语')
     print('声学模型语音识别结果：')
     # std_res = ["dang1", "da3", "bu4", "chu1", "zhong1", "wen2", "shi2", "jiu4", "qie1", "huan4", "dao4", "ri4", "yu3", "jian4", "pan2", "da3", "ji3", "ge4", "ri4", "yu3"]
     score = 0
     err = []
     for i in range(len(reco_res)):
-        if i > len(std_res):
+        if i + 1 > len(std_res):
             break
         if reco_res[i] == std_res[i]:
             score += 1

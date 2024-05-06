@@ -1,0 +1,1 @@
+docker build -t keepljx/mandarin_mate_voice_function:1.0 -f ./Dockerfile .

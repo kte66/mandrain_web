@@ -35,7 +35,7 @@ RUN pip3 install wave scipy matplotlib tensorflow-cpu==2.5.3 numpy==1.19.2 reque
 RUN echo $'cd /asrt_server \n python3 asrserver_http.py' > /asrt_server/start.sh && chmod +x /asrt_server/start.sh
 
 # refer: https://docs.docker.com/engine/reference/builder/#expose
-EXPOSE 20001/tcp
+EXPOSE 8000/tcp
 
 ENTRYPOINT ["/bin/bash", "/asrt_server/start.sh"]
 

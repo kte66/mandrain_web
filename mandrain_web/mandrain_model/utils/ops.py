@@ -27,6 +27,8 @@ import wave
 import difflib
 import matplotlib.pyplot as plt
 import numpy as np
+from pydub import AudioSegment
+
 
 def read_wav_data(filename: str) -> tuple:
     '''

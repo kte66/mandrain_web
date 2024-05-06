@@ -238,6 +238,7 @@ class ModelSpeech:
 
         return r_str
 
+
     def recognize_speech_from_file(self, filename):
         '''
         最终做语音识别用的函数，识别指定文件名的语音

@@ -25,7 +25,7 @@
 
 import json
 
-DEFAULT_CONFIG_FILENAME = 'mandrain_web\\mandrain_model\\asrt_config.json'
+DEFAULT_CONFIG_FILENAME = 'mandrain_web/mandrain_model/asrt_config.json'
 _config_dict = None
 _pinyin_dict = None
 _pinyin_list = None
