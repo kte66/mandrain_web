@@ -38,6 +38,11 @@ def score_voice(wav_file_name, std_res):
             score += 1
         else:
             err.append([i, reco_res[i]])
+    sub = len(std_res) - len(reco_res);
+    if (sub > 0):
+        for i in range(len(reco_res), len(std_res)):
+            err.append([i, std_res[i]])
+
     score = 100 * score / len(std_res)
     print("读错的地方：", err)
     print("评分：%.2f" % score)
